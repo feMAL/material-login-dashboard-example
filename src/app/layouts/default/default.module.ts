@@ -9,6 +9,8 @@ import { PostsComponent } from 'src/app/modules/posts/posts.component';
 
 import { MatSidenavModule } from '@angular/material/sidenav'
 import { MatDividerModule } from '@angular/material/divider'
+import { MatCardModule } from '@angular/material/card'
+import { FlexLayoutModule } from '@angular/flex-layout';
 
 
 @NgModule({
@@ -22,7 +24,9 @@ import { MatDividerModule } from '@angular/material/divider'
     RouterModule,
     SharedModule,
     MatSidenavModule,
-    MatDividerModule
+    MatDividerModule,
+    MatCardModule,
+    FlexLayoutModule
   ]
 })
 export class DefaultModule { }

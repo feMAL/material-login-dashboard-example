@@ -7,9 +7,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DefaultComponent implements OnInit {
 
+  sideBarOpen = false;
+
   constructor() { }
 
   ngOnInit(): void {
   }
 
+  getSideBarEmit(e){
+    this.sideBarOpen= !this.sideBarOpen
+  }
 }
